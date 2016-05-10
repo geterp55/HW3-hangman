@@ -1,0 +1,89 @@
+<DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman </title>
+</head>
+<body>
+
+<!-- This is where the code will go that we created. -->
+<div id="game">
+		<p>Press any key to start playing</p>
+</div>
+
+<script type="text/javascript">
+	
+// Sets the computer choices
+var computerChoices = ['a', 'b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
+
+// Declares the tallies to 0
+//var wins = 0;
+//var losses = 0;
+//var ties = 0;
+
+// When the user presses the key it records the keypress and then sets it to userguess
+document.onkeyup = function(event) {
+	var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
+
+	// This sets the computer guess equal to the random.
+	//var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
+
+	// Making sure the user chooses r, p, or s
+	if ((userGuess == 'd') || (userGuess == 'o') || (userGuess == 'g')){
+		document.log(userGuess);{
+	// if(var j =0; j < )		
+	}else if (userGuess == 'a'){
+		console.log(computerChoices =='a');
+	}else if (userGuess == 'b'){
+		console.log(computerChoices == 'b')
+	}else if (userGuess == 'c'){
+		console.log(computerChoices == 'c')
+	}else if (userGuess == 'e'){
+		console.log(computerChoices == 'e')
+	}else if (userGuess == 'f'){
+		console.log(computerChoices == 'f')
+	}else if (userGuess == 'g'){
+		console.log(computerChoices == 'g')	
+	}else if (userGuess == 'h'){
+		console.log(computerChoices == 'h')	
+	}else if (userGuess == 'i'){
+		console.log(computerChoices == 'i')
+	}else if (userGuess == 'j'){
+		console.log(computerChoices == 'j')
+	}else if (userGuess == 'k'){
+		console.log(computerChoices == 'k')
+	}else if (userGuess == 'l'){
+		console.log(computerChoices == 'l')
+	}else if (userGuess == 'm'){
+		console.log(computerChoices == 'm')
+	}else if (userGuess == 'n'){
+		console.log(computerChoices == 'n')
+	}else if (userGuess == 'o'){
+		console.log(computerChoices == 'o')
+
+
+
+
+
+
+
+
+
+
+
+		
+
+		// Placing the html into the game ID
+		//document.querySelector('#game').innerHTML = html;
+
+
+	}
+
+}
+
+</script>
+
+
+
+
+</body>
+</html>
